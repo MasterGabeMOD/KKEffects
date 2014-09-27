@@ -1,0 +1,16 @@
+# Value: 1-10
+##################
+JumpEnabled: true
+JumpHeight: 3
+JumpTime: 999999
+##################
+SpeedEnabled: true
+SpeedLevel: 3
+SpeedTime: 999999
+##################
+NightVisionEnabled: true
+NightVisionLevel: 1
+NightVisionTime: 999999
+##################
+
+RemovePotions: false

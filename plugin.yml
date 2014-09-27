@@ -1,0 +1,21 @@
+name: KKEffects
+version: 1.0
+main: server.kk.mastergabemod.main
+permissions:
+    kkeffects.*:
+        description: Gives access to all potion join permissions
+        children:
+            potionjoin.jump: true
+            potionjoin.nightvision: true
+    kkjump.jump:
+        description: If enabled, gives player jumpboost on join
+        default: op
+    kkeffects.nightvision:
+        description: If enabled, gives player nightvision on join
+        default: op
+    kkeffects.speed:
+        description: If enabled, gives player speed on join
+        default: op
+    kkeffects.remove:
+        description: If enabled, removes all potions player has on join
+        default: op
